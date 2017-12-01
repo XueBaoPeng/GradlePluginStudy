@@ -11,5 +11,6 @@ public class MyPlugin implements Plugin<Project> {
         System.out.println("========================");
         System.out.println("hello gradle plugin!");
         System.out.println("========================");
+        project.gradle.addListener(new com.xbp.buildsrc.TimeListener())
     }
 }
