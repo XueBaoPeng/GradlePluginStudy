@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.xbp.gradle'
+apply plugin:  com.xbp.buildsrc.MyPlugin
 
 android {
     compileSdkVersion 26

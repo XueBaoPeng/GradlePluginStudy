@@ -1,0 +1,11 @@
+//该module直接可以被主项目引用，无需上传gradle代码到maven服务器
+apply plugin: 'groovy'
+dependencies {
+    //gradle sdk
+    compile gradleApi()
+    //groovy sdk
+    compile localGroovy()
+}
+//group和version
+group='com.xbp.buildsrc'
+version='1.0.0'
